@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/qaasimeshemogie/.nvm/versions/node/v12.22.3/bin/node /Users/qaasimeshemogie/.nvm/versions/node/v12.22.3/bin/yarn add express mongoose dotenv nodemon
+
+PATH: 
+  /Users/qaasimeshemogie/.nvm/versions/node/v12.22.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/qaasimeshemogie/.nvm/versions/node/v12.22.3/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.22.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.16.35:443 - Local (0.0.0.0:58964)
+      at internalConnect (net.js:923:16)
+      at defaultTriggerAsyncIdScope (internal/async_hooks.js:364:12)
+      at emitLookup (net.js:1066:9)
+      at /Users/qaasimeshemogie/.nvm/versions/node/v12.22.3/lib/node_modules/yarn/lib/cli.js:107658:28
+      at /Users/qaasimeshemogie/.nvm/versions/node/v12.22.3/lib/node_modules/yarn/lib/cli.js:107567:13
+      at RawTask.module.exports.RawTask.call (/Users/qaasimeshemogie/.nvm/versions/node/v12.22.3/lib/node_modules/yarn/lib/cli.js:83655:19)
+      at flush (/Users/qaasimeshemogie/.nvm/versions/node/v12.22.3/lib/node_modules/yarn/lib/cli.js:83737:29)
+      at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+npm manifest: 
+  {
+    "name": "ecommerce-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
